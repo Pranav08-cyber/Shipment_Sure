@@ -8,7 +8,7 @@ Welcome to the official repository for **ShipmentSure**! 🌟 This project is de
 
 ## 🎯 The Mission
 
-The objective is to create a classification model that predicts delivery delays. By identifying the factors that influence shipping speed, this tool helps firms:
+The objective of this project is to develop a classification model that predicts delivery delays. By identifying the factors that influence shipping speed, this tool helps firms:
 
 * 
 **Evaluate Reliability:** Measure how dependable suppliers actually are in procurement and delivery systems.
@@ -48,26 +48,11 @@ The project follows a structured modular pipeline:
 
 This project utilizes a modern data science stack:
 
-* 
-**Programming:** Python 🐍 
-
-
-* 
-**Data Handling:** Pandas & NumPy 🐼 
-
-
-* 
-**Visualization:** Seaborn & Matplotlib 📊 
-
-
-* 
-**Modeling:** scikit-learn & XGBoost 🤖 
-
-
-* 
-**Interface:** Streamlit ⚡ 
-
-
+* **Programming:** Python 🐍
+* **Data Handling:** Pandas & NumPy 🐼
+* **Visualization:** Seaborn & Matplotlib 📊
+* **Modeling:** scikit-learn & XGBoost 🤖
+* **Interface:** Streamlit ⚡
 
 ---
 
@@ -120,4 +105,3 @@ The model's performance is measured using the following standards:
 ---
 
 **This project was successfully completed as part of the Infosys Springboard Virtual Internship 6.0.** 🎓🏢
-
