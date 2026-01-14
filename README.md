@@ -67,18 +67,17 @@ The implementation was divided into four major milestones:
 
 | Phase | Module | Key Tasks 📋 |
 | --- | --- | --- |
-| **Week 1-2** | 🔍 **Data Exploration** | Analyzing schema and performing EDA.
+| **Week 1-2** | 🔍 **Data Exploration** | Analyzing schema and performing EDA.|
 
- |
-| **Week 3-4** | ⚙️ **Preprocessing** | Encoding categorical variables and scaling features.
+ 
+| **Week 3-4** | ⚙️ **Preprocessing** | Encoding categorical variables and scaling features.|
 
- |
-| **Week 5-6** | 🧠 **Model Building** | Training models with GridSearchCV tuning.
+ 
+| **Week 5-6** | 🧠 **Model Building** | Training models with GridSearchCV tuning.|
 
- |
-| **Week 7-8** | 🚀 **Deployment** | Building the **Streamlit** app and documentation.
+ 
+| **Week 7-8** | 🚀 **Deployment** | Building the **Streamlit** app and documentation.|
 
- |
 
 ---
 
