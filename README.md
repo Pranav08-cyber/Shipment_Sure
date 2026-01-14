@@ -96,6 +96,8 @@ F --> G[Streamlit App]
 * 📊 Real-time prediction
 * ⏱️ On-time delivery probability
 * ⚡ Fast & interactive UI
+  <img width="697" height="1017" alt="image" src="https://github.com/user-attachments/assets/a85ce15b-6392-48a3-be65-af54f24714d9" />
+
 
 ---
 
