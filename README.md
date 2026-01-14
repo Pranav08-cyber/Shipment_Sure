@@ -64,6 +64,8 @@ D --> E[Model Training]
 E --> F[Evaluation]
 F --> G[Streamlit App]
 ```
+<img width="1501" height="418" alt="image" src="https://github.com/user-attachments/assets/d9ee370d-f04c-4b58-a9b0-50cf9a95076d" />
+
 
 ---
 
@@ -81,6 +83,8 @@ F --> G[Streamlit App]
 * F1-Score
 * ROC-AUC
 * Confusion Matrix
+  <img width="1420" height="672" alt="image" src="https://github.com/user-attachments/assets/e19549dc-fa09-45a4-b701-1e96fb2aed91" />
+
 
 ---
 
@@ -164,6 +168,7 @@ streamlit run apps/app.py
 ✔️ Identification of delay-causing factors
 ✔️ Deployed ML web application
 ✔️ End-to-end project implementation
+<img width="1497" height="475" alt="image" src="https://github.com/user-attachments/assets/a69f5a99-7453-4276-b7ee-372e41dd6d56" />
 
 ---
 
