@@ -1,97 +1,189 @@
 
-### 🎓 **Infosys Springboard Virtual Internship 6.0 Project**
 
-# 🚚 ShipmentSure: Predicting On-Time Delivery Using Supplier Data
+# 🚚 ShipmentSure – On-Time Delivery Prediction System
 
-Welcome to the official repository for **ShipmentSure**! 🌟 This project was developed during the **Infosys Springboard Virtual Internship 6.0** to eliminate logistics uncertainty by using Machine Learning to predict whether a shipment will reach its destination on time.
-
----
-
-## 🎯 The Mission
-
-The objective of this project is to develop a classification model that predicts delivery delays. By identifying the factors that influence shipping speed, this tool helps firms:
-
-* **Evaluate Reliability:** Measure how dependable suppliers actually are in procurement and delivery systems.
-
-
-* **Identify Key Features:** See which factors (like cost or weight) most influence on-time delivery.
-
-
-* **Real-time Predictions:** Use a **Streamlit** dashboard for instant delivery insights.
-
-
+> 🎯 **Infosys Springboard Virtual Internship 6.0 –  Project**
 
 ---
 
-## 🏗️ System Architecture
+## 🌟 Project Overview
 
-The project follows a structured modular pipeline:
+**ShipmentSure** is an **end-to-end Machine Learning application** that predicts whether a shipment will be delivered **on time or delayed** using supplier and order-related data.
 
-1. **Data Layer:** Raw data ingestion from the Kaggle Supply Chain Logistics dataset followed by cleaning and feature engineering.
+🚀 Built with **Python + Streamlit**, this project demonstrates:
 
-
-2. **Model Training Phase:** Splitting data into train-test sets and training algorithms like **Random Forest** and **XGBoost**.
-
-
-3. **Deployment Layer:** A **Streamlit** web interface that processes user inputs to deliver a final prediction: **On-Time** or **Delayed**.
-
-
+* Real-world **supply chain analytics**
+* Complete **ML lifecycle**
+* **Interactive web deployment**
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Problem Statement
 
-This project utilizes a modern data science stack:
+Late deliveries can cause:
 
-* **Programming:** Python 🐍 
+* Customer dissatisfaction 😕
+* Revenue loss 💸
+* Inefficient logistics 🚛
 
-
-* **Data Handling:** Pandas & NumPy 🐼 
-
-
-* **Visualization:** Seaborn & Matplotlib 📊 
-
-
-* **Modeling:** scikit-learn & XGBoost 🤖 
-
-
-* **Interface:** Streamlit ⚡ 
-
-
+👉 **ShipmentSure** predicts **On-Time Delivery Probability** to help businesses take proactive decisions.
 
 ---
 
-Phase,Module,Key Tasks 📋
-Week 1-2,🔍 Data Exploration,"Analyzing dataset schema, performing EDA, and visualizing feature distributions."
-Week 3-4,⚙️ Preprocessing,"Encoding categorical variables, normalizing numerical features, and feature engineering."
-Week 5-6,🧠 Model Building,Training Random Forest and XGBoost models using GridSearchCV for hyperparameter tuning.
-Week 7-8,🚀 Deployment,Building the Streamlit web application and finalizing project documentation.
+## 📊 Dataset Information
+
+* 📌 **Source:** Kaggle – Supply Chain Logistics Dataset
+* 📌 **Type:** Classification
+* 📌 **Target Column:** `Reached.on.Time_Y.N`
+
+  * `1` → On-Time
+  * `0` → Delayed
 
 ---
 
-## 📊 Evaluation Metrics
+## ⚙️ Tech Stack
 
-The model's performance is measured using the following standards:
-
-* **Accuracy & F1-Score:** To measure overall correctness.
-
-
-* **Precision & Recall:** To understand the balance between false positives and false negatives.
-
-
-* **Confusion Matrix & ROC-AUC:** To visualize classification performance and model discrimination.
-
-
+| Layer              | Tools                                       |
+| ------------------ | ------------------------------------------- |
+| 🐍 Programming     | Python                                      |
+| 📦 Data Processing | Pandas, NumPy                               |
+| 📊 Visualization   | Matplotlib, Seaborn                         |
+| 🤖 ML Models       | Logistic Regression, Random Forest, XGBoost |
+| 🚀 Deployment      | **Streamlit**                               |
 
 ---
 
-## 💻 How to Run This Project
+## 🔁 Project Workflow
 
-1. **Clone the Repo:** `git clone https://github.com/your-username/ShipmentSure.git`
-2. **Install Dependencies:** `pip install -r requirements.txt`
-3. **Launch the Dashboard:** `streamlit run app.py` 🎈
+```mermaid
+graph TD
+A[Data Collection] --> B[EDA]
+B --> C[Preprocessing]
+C --> D[Feature Engineering]
+D --> E[Model Training]
+E --> F[Evaluation]
+F --> G[Streamlit App]
+```
 
 ---
 
-**This project was successfully completed as part of the Infosys Springboard Virtual Internship 6.0.** 🎓🏢
+## 🤖 Machine Learning Models
 
+✅ Logistic Regression
+✅ Random Forest
+✅ XGBoost
+
+📈 **Evaluation Metrics Used:**
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* ROC-AUC
+* Confusion Matrix
+
+---
+
+## 🖥️ Streamlit Web App
+
+✨ Features:
+
+* 📋 User-friendly input form
+* 📊 Real-time prediction
+* ⏱️ On-time delivery probability
+* ⚡ Fast & interactive UI
+
+---
+
+## 📂 Repository Structure
+
+```
+📁 ShipmentSure
+│
+├── 📁 docs
+│   ├── report.pdf
+│   └── project_presentation.pptx
+│
+├── 📁 apps
+│   └── app.py                 # Streamlit application
+│
+├── 📁 scripts
+│   ├── eda.py
+│   ├── preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   └── evaluation.py
+│
+├── final_training_dataset.xlsx
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### 🔹 Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/ShipmentSure.git
+cd ShipmentSure
+```
+
+### 🔹 Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 🔹 Step 3: Run Streamlit App
+
+```bash
+streamlit run apps/app.py
+```
+
+---
+
+## 🎓 Internship Context
+
+✅ Developed as part of
+**🟢 Infosys Springboard Virtual Internship 6.0**
+
+📌 This project fulfills:
+
+* Industry-aligned ML use case
+* Model evaluation & optimization
+* Streamlit-based deployment
+* Professional GitHub documentation
+
+---
+
+## 📈 Key Outcomes
+
+✔️ Accurate shipment delivery prediction
+✔️ Identification of delay-causing factors
+✔️ Deployed ML web application
+✔️ End-to-end project implementation
+
+---
+
+## 🙏 Acknowledgements
+
+* **Infosys Springboard** for the internship opportunity
+* **Kaggle** for the dataset
+* **Streamlit** for rapid ML deployment
+
+---
+
+## 🌐 Connect
+
+⭐ If you like this project, don’t forget to **star the repo**!
+
+🔗 LinkedIn :-https://www.linkedin.com/in/pranav-dandge-95b7b2277/
+💻 GitHub - https://github.com/Pranav08-cyber
+
+---
+
+🔥 **Built with data, ML, and passion for Infosys Springboard Virtual Internship 6.0** 🔥
+
+---
