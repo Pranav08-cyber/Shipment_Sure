@@ -61,23 +61,11 @@ This project utilizes a modern data science stack:
 
 ---
 
-## 🛤️ Internship Journey (Milestones)
-
-The implementation was divided into four major milestones:
-
-| Phase | Module | Key Tasks 📋 |
-| --- | --- | --- |
-| **Week 1-2** | 🔍 **Data Exploration** | Analyzing schema and performing EDA.|
-
-| --- | --- | --- | 
-| **Week 3-4** | ⚙️ **Preprocessing** | Encoding categorical variables and scaling features.|
-
-| --- | --- | --- | 
-| **Week 5-6** | 🧠 **Model Building** | Training models with GridSearchCV tuning.|
-
-| --- | --- | --- |
-| **Week 7-8** | 🚀 **Deployment** | Building the **Streamlit** app and documentation.|
-
+Phase,Module,Key Tasks 📋
+Week 1-2,🔍 Data Exploration,"Analyzing dataset schema, performing EDA, and visualizing feature distributions."
+Week 3-4,⚙️ Preprocessing,"Encoding categorical variables, normalizing numerical features, and feature engineering."
+Week 5-6,🧠 Model Building,Training Random Forest and XGBoost models using GridSearchCV for hyperparameter tuning.
+Week 7-8,🚀 Deployment,Building the Streamlit web application and finalizing project documentation.
 
 ---
 
