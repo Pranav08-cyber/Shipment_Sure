@@ -1,8 +1,9 @@
+
 ### 🎓 **Infosys Springboard Virtual Internship 6.0 Project**
 
 # 🚚 ShipmentSure: Predicting On-Time Delivery Using Supplier Data
 
-Welcome to the official repository for **ShipmentSure**! 🌟 This project is designed to eliminate logistics uncertainty by using Machine Learning to predict whether a shipment will reach its destination on time based on supplier and order-level data.
+Welcome to the official repository for **ShipmentSure**! 🌟 This project was developed during the **Infosys Springboard Virtual Internship 6.0** to eliminate logistics uncertainty by using Machine Learning to predict whether a shipment will reach its destination on time.
 
 ---
 
@@ -10,16 +11,13 @@ Welcome to the official repository for **ShipmentSure**! 🌟 This project is de
 
 The objective of this project is to develop a classification model that predicts delivery delays. By identifying the factors that influence shipping speed, this tool helps firms:
 
-* 
-**Evaluate Reliability:** Measure how dependable suppliers actually are in procurement and delivery systems.
+* **Evaluate Reliability:** Measure how dependable suppliers actually are in procurement and delivery systems.
 
 
-* 
-**Identify Key Features:** See which factors most influence on-time delivery.
+* **Identify Key Features:** See which factors (like cost or weight) most influence on-time delivery.
 
 
-* 
-**Real-time Predictions:** Use a **Streamlit** dashboard for instant delivery insights.
+* **Real-time Predictions:** Use a **Streamlit** dashboard for instant delivery insights.
 
 
 
@@ -29,16 +27,13 @@ The objective of this project is to develop a classification model that predicts
 
 The project follows a structured modular pipeline:
 
-1. 
-**Data Layer:** Raw data ingestion from the **Kaggle Supply Chain Logistics** dataset followed by cleaning and feature engineering.
+1. **Data Layer:** Raw data ingestion from the Kaggle Supply Chain Logistics dataset followed by cleaning and feature engineering.
 
 
-2. 
-**Model Training Phase:** Splitting data into train-test sets and training algorithms like **Random Forest** and **XGBoost**.
+2. **Model Training Phase:** Splitting data into train-test sets and training algorithms like **Random Forest** and **XGBoost**.
 
 
-3. 
-**Deployment Layer:** A **Streamlit** web interface that processes user inputs to deliver a final prediction: **On-Time** or **Delayed**.
+3. **Deployment Layer:** A **Streamlit** web interface that processes user inputs to deliver a final prediction: **On-Time** or **Delayed**.
 
 
 
@@ -48,30 +43,40 @@ The project follows a structured modular pipeline:
 
 This project utilizes a modern data science stack:
 
-* **Programming:** Python 🐍
-* **Data Handling:** Pandas & NumPy 🐼
-* **Visualization:** Seaborn & Matplotlib 📊
-* **Modeling:** scikit-learn & XGBoost 🤖
-* **Interface:** Streamlit ⚡
+* **Programming:** Python 🐍 
+
+
+* **Data Handling:** Pandas & NumPy 🐼 
+
+
+* **Visualization:** Seaborn & Matplotlib 📊 
+
+
+* **Modeling:** scikit-learn & XGBoost 🤖 
+
+
+* **Interface:** Streamlit ⚡ 
+
+
 
 ---
 
 ## 🛤️ Internship Journey (Milestones)
 
-The implementation was divided into four major milestones during the internship period:
+The implementation was divided into four major milestones:
 
 | Phase | Module | Key Tasks 📋 |
 | --- | --- | --- |
-| **Week 1-2** | 🔍 **Data Exploration** | Analyzing schema, handling class imbalances, and performing EDA.
+| **Week 1-2** | 🔍 **Data Exploration** | Analyzing schema and performing EDA.
 
  |
-| **Week 3-4** | ⚙️ **Preprocessing** | Encoding categorical variables and scaling numerical features.
+| **Week 3-4** | ⚙️ **Preprocessing** | Encoding categorical variables and scaling features.
 
  |
-| **Week 5-6** | 🧠 **Model Building** | Training Logistic Regression, Random Forest, and XGBoost with GridSearchCV.
+| **Week 5-6** | 🧠 **Model Building** | Training models with GridSearchCV tuning.
 
  |
-| **Week 7-8** | 🚀 **Deployment** | Building the **Streamlit** web app and finalizing documentation.
+| **Week 7-8** | 🚀 **Deployment** | Building the **Streamlit** app and documentation.
 
  |
 
@@ -81,16 +86,13 @@ The implementation was divided into four major milestones during the internship 
 
 The model's performance is measured using the following standards:
 
-* 
-**Accuracy & F1-Score:** To measure overall correctness.
+* **Accuracy & F1-Score:** To measure overall correctness.
 
 
-* 
-**Precision & Recall:** To understand the balance between false positives and false negatives.
+* **Precision & Recall:** To understand the balance between false positives and false negatives.
 
 
-* 
-**Confusion Matrix & ROC-AUC:** To visualize classification performance and model discrimination.
+* **Confusion Matrix & ROC-AUC:** To visualize classification performance and model discrimination.
 
 
 
@@ -105,3 +107,4 @@ The model's performance is measured using the following standards:
 ---
 
 **This project was successfully completed as part of the Infosys Springboard Virtual Internship 6.0.** 🎓🏢
+
